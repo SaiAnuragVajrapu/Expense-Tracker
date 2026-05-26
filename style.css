@@ -1,0 +1,148 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#f4f4f4;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+.container{
+  width:450px;
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h1,h3{
+  text-align:center;
+  margin-bottom:15px;
+}
+
+.balance-container{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.income-expense-container{
+  display:flex;
+  justify-content:space-between;
+  background:#fafafa;
+  padding:15px;
+  border-radius:5px;
+  margin-bottom:20px;
+}
+
+.money{
+  font-size:20px;
+  font-weight:bold;
+}
+
+.plus{
+  color:green;
+}
+
+.minus{
+  color:red;
+}
+
+.list{
+  list-style:none;
+  margin-bottom:20px;
+}
+
+.list li{
+  background:#fff;
+  padding:10px;
+  margin:10px 0;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-right:5px solid;
+}
+
+.list li.plus{
+  border-color:green;
+}
+
+.list li.minus{
+  border-color:red;
+}
+
+.actions button{
+  margin-left:5px;
+}
+
+.edit-btn{
+  background:orange;
+  color:white;
+  border:none;
+  padding:5px 10px;
+  cursor:pointer;
+}
+
+.delete-btn{
+  background:red;
+  color:white;
+  border:none;
+  padding:5px 10px;
+  cursor:pointer;
+}
+
+.form-control{
+  margin-bottom:15px;
+}
+
+.form-control label{
+  display:block;
+  margin-bottom:5px;
+}
+
+.form-control input{
+  width:100%;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+.btn{
+  width:100%;
+  padding:10px;
+  border:none;
+  background:#6c5ce7;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+.export-buttons{
+  margin-top:20px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.pdf-btn{
+  background:red;
+  color:white;
+  border:none;
+  padding:10px;
+  width:48%;
+  cursor:pointer;
+}
+
+.excel-btn{
+  background:green;
+  color:white;
+  border:none;
+  padding:10px;
+  width:48%;
+  cursor:pointer;
+}
