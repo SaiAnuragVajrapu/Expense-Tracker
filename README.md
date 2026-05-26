@@ -50,7 +50,6 @@ expense-tracker/
 
 ---
 
-# Screenshots
 
 ## Home Page
 - Displays current balance
